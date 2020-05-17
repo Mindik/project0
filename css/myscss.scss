@@ -1,0 +1,412 @@
+/* Colors */
+$text: #333;
+$text_red: #E95841;
+$icon: grey;
+
+
+/* font-weight */
+$bold: 700;
+$regular: 400;
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: $regular;
+    color: $text;
+}
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+
+/* Container */
+
+.container {
+    width: 100%;
+    max-width: 1002px;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin: 0 auto;
+}
+
+/* Header */
+/* icon */
+
+.header {
+    padding: 20px 16px 0;
+    
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo__icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* Navbar */
+
+.navbar    {
+    display: flow-root;
+    padding-right: 0;
+    button {
+        margin-left: 42px;
+    } 
+}
+.navbar-toggler {
+    text-align: right!important;
+}
+.navbar-nav {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    color: black!important;
+    transition: color .2s linear;
+    margin: 0 10px;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 2px;
+    transition: all .2s linear;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: $text_red!important;
+    border-color: $text_red;
+    transform: scale(1.1);
+    padding-top: 7px;
+}
+
+/* Home */
+
+.home {
+    max-height: 700px;
+    height: auto;
+}
+
+.home__inner {
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    
+    h3 {
+        color: $text_red;
+        font-weight: $bold;
+    }
+}
+
+.image__foto {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    transform: rotate(-3deg);
+    box-shadow: 0 0px 20px 0px;
+}
+
+/* About */
+
+.about__inner {
+    padding: 60px 40px;
+    width: 100%;
+    
+}
+
+%my_about_text {
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+    line-height: 1.4;
+    
+}
+
+.about__text {
+    @extend %my_about_text;
+    h3 {
+        color: $text_red;
+        font-weight: $bold;
+    }
+}
+
+.about__table {
+    @extend %my_about_text;
+    padding-top: 50px;
+    th {
+        color: $text_red;
+        font-weight: $bold;
+    }
+}
+
+%about_foto {
+    width: 300px;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.2);
+}
+
+.perm__foto {
+    @extend %about_foto;
+}
+
+.happy__foto {
+    @extend %about_foto;
+    width: 100%;
+    border-radius: 35%;
+    margin-top: 30px auto 0;
+}
+
+#ab__foto {
+    margin: 0 auto;
+}
+
+.text__foto {
+    text-align: center;
+    padding-top: 15px;
+    font-style: italic;
+}
+
+
+/* Hobby */
+
+.list__games {
+    padding: 40px 20px 15px;
+}
+
+.hobby__text {
+    text-align: center;
+    h3 {
+        font-weight: $bold;
+        color: $text_red;
+    }
+}
+
+.list-group-item {
+    color: $text
+}
+
+.list-group-item:hover,
+list-group-item-action {
+    color: $text_red!important;
+    font-weight: $bold;
+}
+
+.text_myvideo {
+    text-align: center;
+    padding: 25px 20px;
+    border-top: 1px solid $icon;
+    
+    
+    span {
+        font-weight: $bold;
+        color: $text_red;
+    }
+}
+
+.my__games {
+    padding: 20px 0;
+}
+
+.tab-content {
+    margin-top: 8px;
+}
+
+.list-group-item-action.active {
+    font-weight: $bold;
+    color: $text_red!important;
+    background-color: #f2f2f2!important;
+    border-color: #cccccc!important;
+}
+
+.carousel {
+    padding-bottom: 20px;
+}
+
+.carousel-item {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+.carousel-item iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-width: 0;
+    outline-width: 0;
+}
+
+/* Contacts */
+
+.contact {
+    padding: 100px;
+    text-align: center;
+}
+
+.btn {
+    transition: all .1s linear;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    color: $text_red!important;
+    font-weight: $bold;
+    
+}
+
+
+
+
+/* Footer */
+
+.footer__inner {
+    padding: 20px 40px;
+    border-top: 1px solid $icon;
+        
+    .user {
+        font-size: 20px;
+        font-weight: $bold;
+        
+        .user__name {
+            color: $text_red;
+        }
+    }
+    
+    .user__prof {
+        font-size: 16px;
+    }
+}
+
+.social__icon {
+    font-size: 20px;
+    display: block;
+    
+    .fab {
+        color: $icon;
+        max-width: 37px;
+        width: 37px;
+        transition: all .2s linear;
+    }
+}
+
+
+.fab:hover {
+    color: $text_red;
+    transform: translate3d(0, -10px, -10px) scale(1.5);
+    
+}
+
+@media (max-width: 991px) {
+    .about__inner {
+        padding-top: 15px;
+        padding-bottom: 40px;
+    }
+    
+    .about__text {
+        padding: 0 110px 30px;
+    }
+    
+    .perm__foto {
+        max-width: 400px;
+        width: 100%;
+    }
+    #h__foto {
+        margin: 0 auto;
+    }
+    .my__list {
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .home__inner {
+        padding: 20px 40px;
+    }
+    
+    .home__text {
+        font-size: 14px;
+        padding: 10px 60px;
+    }
+    
+    .about__text {
+        padding: 0 20px 30px;
+    }
+    
+    .footer__inner {
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    .social__icon {
+        padding-top: 5px;
+    }
+    #h__foto {
+        margin: 0 auto;
+    }
+    
+}
+
+@media (max-width: 576px) {
+    .home__inner {
+        padding: 20px;
+    }
+    
+    .home__text {
+        font-size: 14px;
+        padding: 20px 4%;
+    }
+    .footer__text {
+        margin: 0 auto;
+    }
+    .footer__inner {
+        text-align: center;
+    }
+    
+    .about__table {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 450px) {
+    .about__inner {
+        padding: 15px 5px;
+    }
+    .about__table {
+        font-size: 10px;
+    }
+    .about__text {
+        font-size: 12px;
+        padding: 0 0 20px;
+        h3 {
+            font-size: 16px;
+        }
+    }
+    .my__list {
+        font-size: 14px;
+    }
+    .contact {
+        padding: 80px 20px;
+    }
+    
+    .text_contact {
+        padding-bottom: 30px;
+    }
+    .text__foto {
+        font-size: 12px;
+    }
+}
+
+
+
