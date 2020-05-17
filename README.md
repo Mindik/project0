@@ -6,8 +6,8 @@ Web Programming with Python and JavaScript
 
 - The project was completed in the CS50 WEB course (project0).
 - As a basis, a material is selected that tells a brief information about me.
-- For development, materials from [Bootstrap 4] were used (https://getbootstrap.com/)
-- To style the HTML, the [Saas] extension was used (https://sass-lang.com/)
+- For development, materials from [Bootstrap 4](https://getbootstrap.com/) were used 
+- To style the HTML, the [Saas](https://sass-lang.com/) extension was used 
 - The project consists of four pages. From each page you can go to a friend using the navigation bar.
 - Many elements of Bootstrap are changed, animation is added. 
 - Standard JavaScript Bootstrap was used.
@@ -34,7 +34,7 @@ On different devices, content is displayed differently. For example, the navigat
 
 ## About
 
-![About](https://pix.my/zIk90p.png)
+![About](https://pix.my/o/zIk90p.png)
 
 The page says that I live in Russia, in the city of Perm (click on the picture to learn more)
 The table shows a member of my family.
