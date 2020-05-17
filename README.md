@@ -30,7 +30,7 @@ The basis of the text of the page briefly tells what kind of web page it is, and
 
 On different devices, content is displayed differently. For example, the navigation bar collapses, and the layout changes to vertical.
 
-![iPhone](https://pix.my/o/jI8a2n.png)    ![iPhone](https://pix.my/o/fydu0O.png)
+![iPhone](https://pix.my/o/jI8a2n.png) | ![iPhone](https://pix.my/o/fydu0O.png)
 
 ## About
 
