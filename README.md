@@ -34,7 +34,7 @@ On different devices, content is displayed differently. For example, the navigat
 
 ## About
 
-![About](https://pix.my/o/zIk90p.png)
+![About](https://pix.my/o/H5FAA7.png)
 
 The page says that I live in Russia, in the city of Perm (click on the picture to learn more)
 The table shows a member of my family.
