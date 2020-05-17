@@ -30,7 +30,7 @@ The basis of the text of the page briefly tells what kind of web page it is, and
 
 On different devices, content is displayed differently. For example, the navigation bar collapses, and the layout changes to vertical.
 
-![iPhone](https://pix.my/o/jI8a2n.png) | ![iPhone](https://pix.my/o/fydu0O.png)
+![iPhone](https://pix.my/o/xGckuD.png)
 
 ## About
 
@@ -41,7 +41,7 @@ The table shows a member of my family.
 
 The page is adapted for different devices.
 
-![iPhone](https://pix.my/o/bUc4v6.png)    ![iPhone](https://pix.my/o/qhoUie.png)
+![iPhone](https://pix.my/o/zFNQ2M.png)
 
 ## Hobby
 
@@ -52,7 +52,7 @@ Some of my videos are shown in the carousel (don’t forget to leave a comment a
 
 The page is adaptive for various devices
 
-![iPhone](https://pix.my/o/K58DLt.png)     ![iPhone](https://pix.my/o/Dqc57a.png)
+![iPhone](https://pix.my/o/QWOu5T)
 
 ## Contacts
 
