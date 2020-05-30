@@ -12,7 +12,7 @@ Introduction to Computer Science
 - Many elements of Bootstrap changed, animation added.
 - The project is fully adaptable to different devices (from iPhone 5 to PC).
 
-## Login
+### More
 
 ![Login page](https://i.ibb.co/RTQzwDg/aW0948.png)
 
@@ -22,41 +22,40 @@ All forms have a standard browser validation check.
 
 ![Valid](https://i.ibb.co/0h9VgL0/9E0umZ.png)
 
-Footer contains my First Name and Last Name, as well as a profession. Social network icons have links to my accounts.
+The main page is four columns, each displays tasks at a certain stage: created, in_work, tested, done.
 
-![Footer](https://pix.my/o/p7q5FL.png)
+![Main](https://i.ibb.co/nDyzNnB/NIbk8q.png)
 
-The basis of the text of the page briefly tells what kind of web page it is, and also shows my photo.
+When you hover over the cards animation is triggered.
 
-On different devices, content is displayed differently. For example, the navigation bar collapses, and the layout changes to vertical.
+![Anim](https://i.ibb.co/1v4ZCk9/wXbFmk.png)
 
-![iPhone](https://pix.my/o/xGckuD.png)
+Each card displays a title. if you click on the view icon, you can familiarize yourself with the task in more detail.
 
-## About
+![Anim](https://i.ibb.co/ZVjwpvh/tAcptA.png)
 
-![About](https://pix.my/o/H5FAA7.png)
+The task can be edited.
 
-The page says that I live in Russia, in the city of Perm (click on the picture to learn more)
-The table shows a member of my family.
+![Anim](https://i.ibb.co/TKP7GWL/ZQgNnc.png)
 
-The page is adapted for different devices.
+And also delete (will be deleted from the database).
 
-![iPhone](https://pix.my/o/zFNQ2M.png)
+![Anim](https://i.ibb.co/MDJH1sY/uheftY.png) 
 
-## Hobby
+Implemented the drag and drop function. All changes are saved in the database!
 
-![Hobby](https://pix.my/o/DUjQnK.png)
+![Anim](https://i.ibb.co/8cdV93b/FbEhGd.png) 
 
-The page shows my hobbies. Different video games that I sometimes play. You can click on the name in the list to learn more about these games.
-Some of my videos are shown in the carousel (don’t forget to leave a comment and subscribe to my channel!) :smiley:	
+![Anim](https://i.ibb.co/L8zrCJR/PkNjEN.png)
 
-The page is adaptive for various devices
+Added the ability to sort by priority and task completion time.
 
-![iPhone](https://pix.my/o/QWOu5T)
+![Anim](https://i.ibb.co/J3M0Ykq/xtijvC.png)
 
-## Contacts
+In your personal account, the ability to change the login / password is implemented. Login change occurs after checking the mailbox (as well as registration)
 
-![Contacts](https://pix.my/o/hKQuYy.png)
+![Anim](https://i.ibb.co/GFntQpj/ZOb0Mg.png)
 
-On this page you can click on the button and contact me by e-mail.
-The content is adaptive for different devices.
+![Anim](https://i.ibb.co/QJGZqL7/ExgdkW.png)
+
+### Mobile version:
