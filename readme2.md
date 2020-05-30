@@ -14,7 +14,7 @@ Introduction to Computer Science
 
 ## Login
 
-![Login page](https://ibb.co/ZzcWDMf)
+![Login page](https://i.ibb.co/RTQzwDg/aW0948.png)
 
 The login page contains the header and footer. The logo in the header has a link that leads to the main page.
 The navigation bar buttons have links to the pages of the same name. When you hover, it increases, and the color changes, a frame appears.
