@@ -19,7 +19,8 @@ Introduction to Computer Science
 The login page contains the header and footer. The logo in the header has a link that leads to the main page.
 The navigation bar buttons have links to the pages of the same name. When you hover, it increases, and the color changes, a frame appears.
 All forms have a standard browser validation check.
-![Valid](https://pix.my/o/9E0umZ.png)
+
+![Valid](https://i.ibb.co/0h9VgL0/9E0umZ.png)
 
 Footer contains my First Name and Last Name, as well as a profession. Social network icons have links to my accounts.
 
