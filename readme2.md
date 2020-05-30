@@ -32,30 +32,34 @@ When you hover over the cards animation is triggered.
 
 Each card displays a title. if you click on the view icon, you can familiarize yourself with the task in more detail.
 
-![Anim](https://i.ibb.co/ZVjwpvh/tAcptA.png)
+![More](https://i.ibb.co/ZVjwpvh/tAcptA.png)
 
 The task can be edited.
 
-![Anim](https://i.ibb.co/TKP7GWL/ZQgNnc.png)
+![Edit](https://i.ibb.co/TKP7GWL/ZQgNnc.png)
 
 And also delete (will be deleted from the database).
 
-![Anim](https://i.ibb.co/MDJH1sY/uheftY.png) 
+![Del](https://i.ibb.co/MDJH1sY/uheftY.png) 
 
 Implemented the drag and drop function. All changes are saved in the database!
 
-![Anim](https://i.ibb.co/8cdV93b/FbEhGd.png) 
+![DnD](https://i.ibb.co/8cdV93b/FbEhGd.png) 
 
-![Anim](https://i.ibb.co/L8zrCJR/PkNjEN.png)
+![Save](https://i.ibb.co/L8zrCJR/PkNjEN.png)
 
 Added the ability to sort by priority and task completion time.
 
-![Anim](https://i.ibb.co/J3M0Ykq/xtijvC.png)
+![Added](https://i.ibb.co/J3M0Ykq/xtijvC.png)
 
 In your personal account, the ability to change the login / password is implemented. Login change occurs after checking the mailbox (as well as registration)
 
-![Anim](https://i.ibb.co/GFntQpj/ZOb0Mg.png)
+![Personal](https://i.ibb.co/GFntQpj/ZOb0Mg.png)
 
-![Anim](https://i.ibb.co/QJGZqL7/ExgdkW.png)
+![Personal](https://i.ibb.co/QJGZqL7/ExgdkW.png)
 
 ### Mobile version:
+
+![Mobile](https://i.ibb.co/fp4pcCy/Screenshot-1.png)
+
+![Mobile](https://i.ibb.co/tqSqJDD/Screenshot-3.png)
